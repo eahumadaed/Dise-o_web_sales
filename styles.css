@@ -1,0 +1,132 @@
+/* Estilo de Encabezado fijo */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to left, #85b644 0%, #44b666 50%, #4e9396 100%);
+    color: #ffffff; 
+    padding: 1rem 0;
+    text-align: center;
+    z-index: 1000; 
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+/* Ajuste del espaciado superior */
+.content {
+    margin-top: 0; 
+    padding: 1rem;
+    padding-top: 100px; contenido */
+    flex: 1;
+}
+
+/* Contenedor principal */
+html, body {
+    height: 100%; 
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    text-align: center; 
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+p, ul, strong {
+    text-align: center;
+}
+
+/* Estilo del pie de página */
+footer {
+    background: linear-gradient(to left, #85b644 0%, #44b666 50%, #4e9396 100%);
+    color: #fff; 
+    text-align: center; 
+    padding: 1rem; 
+    margin-top: 20px; 
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer-content {
+    display: flex; 
+    justify-content: space-around; 
+    margin-bottom: 1rem; 
+}
+
+.social-media, .contact-info {
+    flex: 1; 
+}
+
+.social-media h2, .contact-info h2 {
+    margin-bottom: 0.5rem; 
+}
+
+
+/* Estilo de la barra de navegación */
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+/* Efecto hover en los enlaces */
+.navbar a:hover {
+    color: #000000;
+    background-color: #ffffff; 
+}
+
+/* Contenedor de la imagen principal */
+.Cover {
+    width: 100%;
+    height: auto; 
+    position: relative;
+    margin-top: 180px;
+}
+
+.Cover img {
+    width: 100%;
+    height: auto; 
+    object-fit: contain; 
+    display: block;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2); 
+    box-sizing: border-box;
+}
+
+/* Contenedor de la galería */
+.gallery {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 1px;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+}
